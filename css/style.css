@@ -1,0 +1,244 @@
+
+/*custom adjustments to foundation*/
+/*---------------TODO-------------*/
+/*inegrate these styles with foundation.css where possible*/
+
+
+/*####--fonts--####*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+.ui-loader,.ui-loader *{
+    display: none;
+}
+
+@media only screen and (min-width: 54.8em) {
+    .custom-head .top-bar{
+       text-align: center;
+    }
+    .custom-head .title-area{
+        float: none;
+    }  
+    
+}
+
+@media only screen and (max-width: 54.79em) {
+    .block-only-big{
+        display: none;
+    }  
+    
+}
+
+/*####--classes classes for alignment--####*/
+.align-center{
+   text-align: center;
+}
+
+.align-justify{
+   text-align: justify;
+}
+
+.align-left{
+   text-align: left;
+}
+
+.align-right{
+   text-align: right;
+}
+
+@media only screen and (max-width: 54.8em) {
+.align-center-small{
+   text-align: center;
+}
+
+.align-justify-small{
+   text-align: justify;
+}
+
+.align-left-small{
+   text-align: left;
+}
+
+.align-right-small{
+   text-align: right;
+}
+
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.no-float{
+    display: inline-block;
+    float: none;
+    margin: 0 -3px;
+}
+.clear{
+    clear: both;
+}
+
+/*####--classes for add additional padding to elements--####*/
+
+.add-xsmall-padding-top{
+    padding-top: 10px;
+}
+
+.add-xsmall-padding-right{
+    padding-right: 10px;
+}
+
+.add-xsmall-padding-bottom{
+    padding-bottom: 10px;
+}
+
+.add-xsmall-padding-left{
+    padding-left: 10px;
+}
+
+.add-small-padding-top{
+    padding-top: 20px;
+}
+
+.add-small-padding-right{
+    padding-right: 20px;
+}
+
+.add-small-padding-bottom{
+    padding-bottom: 20px;
+}
+
+.add-small-padding-left{
+    padding-left: 20px;
+}
+
+.add-medium-padding-top{
+    padding-top: 40px;
+}
+
+.add-medium-padding-right{
+    padding-right: 40px;
+}
+
+.add-medium-padding-bottom{
+    padding-bottom: 40px;
+}
+
+.add-medium-padding-left{
+    padding-left: 40px;
+}
+
+/*####--images styles--####*/
+
+figure{
+    margin: 0;
+    max-height: 180px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/*####--borders styles--####*/
+
+.border{
+    border: solid 1px #ededed;
+    padding:20px;
+    }
+
+/*####--complex elements--####*/
+/*custom header*/
+.custom-head{
+    background: #3399cc;
+    
+}
+
+.custom-head .top-bar, .custom-head .expanded{
+    background: none;
+    
+}
+.custom-head ul{
+    font-size: 3em;
+    
+}
+
+.custom-head .top-bar-section a{
+    cursor: pointer;
+    opacity:0.3;
+}
+
+.custom-head a:hover{
+    opacity:0.5;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    
+}
+@media only screen and (max-width: 54.8em) {
+.custom-head .medium.button.postfix.radius{
+    padding-bottom: 25px;
+}
+.custom-head .medium.button.postfix.radius i{
+display: block;
+margin-top: -4px;
+}
+
+}
+
+/*inline list with icons*/
+.list-with-icons{
+    font-size: 0.9em;
+}
+.list-with-icons li{
+    padding-left: 1.5em;
+    position: relative;
+}
+.list-with-icons i{
+    left:0;
+    position: absolute;
+}
+
+.list-with-icons a{
+    display: inline-block;
+}
+
+.list-with-icons a:not(:nth-last-child(1)):after{
+    content: ",";
+}
+
+/**not complete* -> complete width slideahow*/
+.slider{
+   
+}
+
+.slider .main{
+    background: url('../img/img1.jpg') no-repeat top center;
+     padding: 40px 0;
+}
+
+.slider .columns{
+ background: #fff;
+}
+
+.caption {
+    background: none repeat scroll 0 0 #3399CC;
+    color: #FFFFFF;
+    padding: 20px;
+    position: relative;
+    margin-top: -20px;
+}
+
+.caption:before{
+    content: "";
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #3399CC;
+    top: -10px;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+}
