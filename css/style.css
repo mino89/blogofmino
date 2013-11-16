@@ -25,10 +25,10 @@
     .block-only-big{
         overflow: hidden;
         max-height: 0px;
-        -webkit-transition: 1s;  
-        -moz-transition: 1s;  
-        -o-transition: 1s;  
-        transition: 1s;  
+        -webkit-transition: 1s ease;  
+        -moz-transition: 1s ease;  
+        -o-transition: 1s ease;  
+        transition: 1s ease;  
     }  
     
     .opened{
