@@ -23,8 +23,18 @@
 
 @media only screen and (max-width: 54.79em) {
     .block-only-big{
-        display: none;
+        overflow: hidden;
+        max-height: 0px;
+        -webkit-transition: max-height 1s ease;  
+        -moz-transition:  max-height 1s ease;  
+        -o-transition:  max-height 1s ease;  
+        transition: max-height 1s ease;  
     }  
+    
+    .opened{
+        
+    max-height: 2000px;
+    }
     
 }
 
