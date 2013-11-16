@@ -26,12 +26,20 @@
         overflow: hidden;
         max-height: 0px;
         
-        -webkit-transition: .8s linear;  
-        -moz-transition: .8s linear;  
-        -o-transition: .8s linear;  
-        transition: .8s linear;
+        transition-property:max-height;
+        -moz-transition-property: max-height; /* Firefox 4 */
+        -webkit-transition-property:max-height; /* Safari and Chrome */
+        -o-transition-property:max-height; /* Opera */
         
-         -webkit-transform: translateZ(0);
+        transition-duration: 1s;
+        -moz-transition-duration: 1s; /* Firefox 4 */
+        -webkit-transition-duration: 1s; /* Safari and Chrome */
+        -o-transition-duration: 1s; /* Opera */
+        
+        transition-timing-function: cubic-bezier(0,0,1,1);
+        -moz-transition-timing-function: cubic-bezier(0,0,1,1); /* Firefox 4 */
+        -webkit-transition-timing-function: cubic-bezier(0,0,1,1); /* Safari and Chrome */
+        -o-transition-timing-function: cubic-bezier(0,0,1,1); /* Opera */ 
     }  
     
     .opened{
