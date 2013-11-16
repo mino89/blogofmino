@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="img/icons/foundation-icons.css" />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="js/jquery.mobile-events.min.js"></script>
   <script src="js/vendor/custom.modernizr.js"></script>
 
 </head>
@@ -22,7 +21,7 @@
                     <ul class="title-area">
                         <li class="name"><h1><a href="/">Blog of Mino</a></h1></li>
                         <li class="toggle-topbar menu-icon">
-                            <a href="#"><span>Menu</span></a>
+                            <a><span>Menu</span></a>
                         </li>
                     </ul>
 
@@ -200,7 +199,7 @@
                   $(element).removeAttr("style");           
                 })
                 
-                $('.toggle-topbar').tap(function(e, touch){
+                $('.toggle-topbar').click(function(){
                     $(element).toggleClass('opened');
                 });
             }

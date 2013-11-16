@@ -25,15 +25,15 @@
     .block-only-big{
         overflow: hidden;
         max-height: 0px;
-        -webkit-transition: 1s ease;  
-        -moz-transition: 1s ease;  
-        -o-transition: 1s ease;  
-        transition: 1s ease;  
+        -webkit-transition: .8s linear;  
+        -moz-transition: .8s linear;  
+        -o-transition: .8s linear;  
+        transition: .8s linear;  
     }  
     
     .opened{
         
-    max-height: 10000px;
+    max-height: 2000px;
     }
     
 }
