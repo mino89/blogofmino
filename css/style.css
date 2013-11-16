@@ -36,10 +36,10 @@
         -webkit-transition-duration: 1s; /* Safari and Chrome */
         -o-transition-duration: 1s; /* Opera */
         
-        transition-timing-function: cubic-bezier(0,0,1,1);
-        -moz-transition-timing-function: cubic-bezier(0,0,1,1); /* Firefox 4 */
-        -webkit-transition-timing-function: cubic-bezier(0,0,1,1); /* Safari and Chrome */
-        -o-transition-timing-function: cubic-bezier(0,0,1,1); /* Opera */ 
+        transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in; /* Firefox 4 */
+        -webkit-transition-timing-function: ease-in /* Safari and Chrome */
+        -o-transition-timing-function: ease-in; /* Opera */ 
     }  
     
     .opened{
