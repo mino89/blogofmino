@@ -31,10 +31,10 @@
         -webkit-transition-property:max-height; /* Safari and Chrome */
         -o-transition-property:max-height; /* Opera */
         
-        transition-duration: 1s;
-        -moz-transition-duration: 1s; /* Firefox 4 */
-        -webkit-transition-duration: 1s; /* Safari and Chrome */
-        -o-transition-duration: 1s; /* Opera */
+        transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s; /* Firefox 4 */
+        -webkit-transition-duration: 0.5s; /* Safari and Chrome */
+        -o-transition-duration: 0.5s; /* Opera */
         
         transition-timing-function: ease-in;
         -moz-transition-timing-function: ease-in; /* Firefox 4 */
