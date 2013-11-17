@@ -308,22 +308,25 @@ footer{
 }
 
 .caption {
-    background: none repeat scroll 0 0 #3399CC;
-    color: #FFFFFF;
+    background: none repeat scroll 0 0 #ededed;
     padding: 20px;
     position: relative;
-    margin-top: -20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #fff;
 }
 
 .caption:before{
     content: "";
-    width: 0; 
-    height: 0; 
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #3399CC;
-    top: -10px;
+    width: 20px; 
+    height: 20px; 
+    background: #ededed;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); /* IE 9 */
+    -webkit-transform:rotate(45deg); /* Safari and Chrome */
+    bottom: -10px;
     left: 50%;
-    margin-left: -5px;
+    margin-left: -10px;
     position: absolute;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
