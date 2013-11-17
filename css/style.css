@@ -11,6 +11,12 @@
     display: none;
 }
 
+/*####--forms--####*/
+textarea {
+    resize: none;
+    min-height: 100px;
+}
+
 @media only screen and (min-width: 54.8em) {
     .custom-head .top-bar{
        text-align: center;
@@ -205,7 +211,11 @@ figure{
 display: block;
 margin-top: -4px;
 }
+}
 
+/*custom footer*/
+footer{
+    background: #ededed
 }
 
 /*inline list with icons*/
