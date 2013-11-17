@@ -232,6 +232,21 @@ figure{
 /*custom header*/
 .custom-head{
     background: #3399cc;
+    position: relative;
+    
+}
+
+.custom-head:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    bottom: 0;
+    left:50%;
+    margin-left: -10px;
     
 }
 
@@ -269,7 +284,22 @@ margin-top: -4px;
 
 /*custom footer*/
 footer{
-    background: #ededed
+    background: #ededed;
+    position: relative;
+}
+
+footer:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ededed;
+    top: -10px;
+    left:50%;
+    margin-left: -10px;
+    
 }
 
 /*inline list with icons*/
@@ -308,25 +338,21 @@ footer{
 }
 
 .caption {
-    background: none repeat scroll 0 0 #ededed;
+    background: none repeat scroll 0 0 #3399CC;
+    color: #FFFFFF;
     padding: 20px;
     position: relative;
-    margin-top: 20px;
-    border-bottom: 4px solid #fff;
 }
 
 .caption:before{
     content: "";
-    width: 21px; 
-    height: 21px; 
-    background: #ededed;
-    transform:rotate(45deg);
-    -ms-transform:rotate(45deg); /* IE 9 */
-    -webkit-transform:rotate(45deg); /* Safari and Chrome */
-    bottom: -14px;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #3399CC;
+    top: -10px;
     left: 50%;
-    margin-left: -10.5px;
+    margin-left: -5px;
     position: absolute;
-    border-bottom: 5px solid #fff;
-    border-right: 5px solid #fff;
 }
