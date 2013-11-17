@@ -3,14 +3,17 @@
 /*---------------TODO-------------*/
 /*inegrate these styles with foundation.css where possible*/
 
-
 /*####--fonts--####*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 
 .ui-loader,.ui-loader *{
     display: none;
 }
-
+/*####--roundness--####*/
+.total-round{
+    border-radius: 100%;
+    overflow: hidden;
+}
 /*####--forms--####*/
 textarea {
     resize: none;
@@ -157,6 +160,57 @@ textarea {
 .add-medium-padding-left{
     padding-left: 40px;
 }
+
+/*####--classes for add additional margin to elements--####*/
+
+.add-xsmall-margin-top{
+    margin-top: 10px;
+}
+
+.add-xsmall-margin-right{
+    margin-right: 10px;
+}
+
+.add-xsmall-margin-bottom{
+    margin-bottom: 10px;
+}
+
+.add-xsmall-margin-left{
+    margin-left: 10px;
+}
+
+.add-small-margin-top{
+    margin-top: 20px;
+}
+
+.add-small-margin-right{
+    margin-right: 20px;
+}
+
+.add-small-margin-bottom{
+    margin-bottom: 20px;
+}
+
+.add-small-margin-left{
+    margin-left: 20px;
+}
+
+.add-medium-margin-top{
+    margin-top: 40px;
+}
+
+.add-medium-margin-right{
+    margin-right: 40px;
+}
+
+.add-medium-margin-bottom{
+    margin-bottom: 40px;
+}
+
+.add-medium-margin-left{
+    margin-left: 40px;
+}
+
 
 /*####--images styles--####*/
 
