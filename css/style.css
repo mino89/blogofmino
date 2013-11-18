@@ -50,9 +50,9 @@ textarea {
         -webkit-transition-property:max-height; /* Safari and Chrome */
         -o-transition-property:max-height; /* Opera */
         
-        transition-duration: 0.5s;
-        -moz-transition-duration: 0.5s; /* Firefox 4 */
-        -webkit-transition-duration: 0.5s; /* Safari and Chrome */
+        transition-duration: 3s;
+        -moz-transition-duration: 3s; /* Firefox 4 */
+        -webkit-transition-duration: 3s; /* Safari and Chrome */
         -o-transition-duration: 0.5s; /* Opera */
         
     }  
@@ -74,10 +74,10 @@ textarea {
         -webkit-transition-property:max-height; /* Safari and Chrome */
         -o-transition-property:max-height; /* Opera */
         
-        transition-duration: 0.5s;
-        -moz-transition-duration: 0.5s; /* Firefox 4 */
-        -webkit-transition-duration: 0.5s; /* Safari and Chrome */
-        -o-transition-duration: 0.5s; /* Opera */
+        transition-duration:3s;
+        -moz-transition-duration: 3s; /* Firefox 4 */
+        -webkit-transition-duration: 3s; /* Safari and Chrome */
+        -o-transition-duration: 3s; /* Opera */
         
         
    max-height: 2000px;
