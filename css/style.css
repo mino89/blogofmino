@@ -45,10 +45,7 @@ textarea {
    -o-transform: translateZ(0);
    transform: translateZ(0);
         
-        transition-property:max-height;
-        -moz-transition-property: max-height; /* Firefox 4 */
-        -webkit-transition-property:max-height; /* Safari and Chrome */
-        -o-transition-property:max-height; /* Opera */
+
         
         transition-duration: 3s;
         -moz-transition-duration: 3s; /* Firefox 4 */
@@ -69,10 +66,6 @@ textarea {
    -o-transform: translateZ(0);
    transform: translateZ(0);
    
-        transition-property:max-height;
-        -moz-transition-property: max-height; /* Firefox 4 */
-        -webkit-transition-property:max-height; /* Safari and Chrome */
-        -o-transition-property:max-height; /* Opera */
         
         transition-duration:3s;
         -moz-transition-duration: 3s; /* Firefox 4 */
