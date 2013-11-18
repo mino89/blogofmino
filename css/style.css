@@ -38,10 +38,10 @@ textarea {
    -moz-transform: translate3d(0, 0, 0);
    -ms-transform: translate3d(0, 0, 0);
    transform: translate3d(0, 0, 0);
-        -moz-transition-duration:.5s; /* Firefox 4 */
-        -webkit-transition-duration: .5s; /* Safari and Chrome */
-        -o-transition-duration:.5s; /* Opera */
-        transition-duration: .5s;
+        -moz-transition-duration:1s; /* Firefox 4 */
+        -webkit-transition-duration: 1s; /* Safari and Chrome */
+        -o-transition-duration:1s; /* Opera */
+        transition-duration: 1s;
         
 
     }  
@@ -51,10 +51,10 @@ textarea {
    -moz-transform: translate3d(0, 0, 0);
    -ms-transform: translate3d(0, 0, 0);
    transform: translate3d(0, 0, 0);
-        -moz-transition-duration:.5s; /* Firefox 4 */
-        -webkit-transition-duration: .5s; /* Safari and Chrome */
-        -o-transition-duration: .5s; /* Opera */
-        transition-duration: .5s;
+        -moz-transition-duration:1s; /* Firefox 4 */
+        -webkit-transition-duration: 1s; /* Safari and Chrome */
+        -o-transition-duration: 1s; /* Opera */
+        transition-duration: 1s;
     max-height: 2000px;
     }
     
