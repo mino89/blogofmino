@@ -51,10 +51,6 @@ textarea {
         -webkit-transition-duration: 0.5s; /* Safari and Chrome */
         -o-transition-duration: 0.5s; /* Opera */
         
-        transition-timing-function: ease-in;
-        -moz-transition-timing-function: ease-in; /* Firefox 4 */
-        -webkit-transition-timing-function: ease-in; /* Safari and Chrome */
-        -o-transition-timing-function: ease-in; /* Opera */ 
     }  
     
     .opened{
@@ -63,6 +59,7 @@ textarea {
    -ms-transform: translateZ(0);
    -o-transform: translateZ(0);
    transform: translateZ(0);
+   
         transition-property:max-height;
         -moz-transition-property: max-height; /* Firefox 4 */
         -webkit-transition-property:max-height; /* Safari and Chrome */
@@ -73,10 +70,6 @@ textarea {
         -webkit-transition-duration: 0.5s; /* Safari and Chrome */
         -o-transition-duration: 0.5s; /* Opera */
         
-        transition-timing-function: ease-in;
-        -moz-transition-timing-function: ease-in; /* Firefox 4 */
-        -webkit-transition-timing-function: ease-in; /* Safari and Chrome */
-        -o-transition-timing-function: ease-in; /* Opera */ 
         
     max-height: 2000px;
     }
