@@ -35,15 +35,21 @@ textarea {
         overflow: hidden;
         max-height: 0px;
         
+          -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+        
         transition-property:max-height;
         -moz-transition-property: max-height; /* Firefox 4 */
         -webkit-transition-property:max-height; /* Safari and Chrome */
         -o-transition-property:max-height; /* Opera */
         
-        transition-duration: 0.5s;
-        -moz-transition-duration: 0.5s; /* Firefox 4 */
-        -webkit-transition-duration: 0.5s; /* Safari and Chrome */
-        -o-transition-duration: 0.5s; /* Opera */
+        transition-duration: .3s;
+        -moz-transition-duration:.3s; /* Firefox 4 */
+        -webkit-transition-duration: .3s; /* Safari and Chrome */
+        -o-transition-duration: .3s; /* Opera */
         
         transition-timing-function: ease-in;
         -moz-transition-timing-function: ease-in; /* Firefox 4 */
