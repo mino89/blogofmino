@@ -34,27 +34,50 @@ textarea {
     .mobile-menu{
         overflow: hidden;
         max-height: 0px;
-   -webkit-transform: translate3d(0, 0, 0);
-   -moz-transform: translate3d(0, 0, 0);
-   -ms-transform: translate3d(0, 0, 0);
-   transform: translate3d(0, 0, 0);
-        -moz-transition-duration:1s; /* Firefox 4 */
-        -webkit-transition-duration: 1s; /* Safari and Chrome */
-        -o-transition-duration:1s; /* Opera */
-        transition-duration: 1s;
         
-
+           -webkit-transform: translateZ(0);
+   -moz-transform: translateZ(0);
+   -ms-transform: translateZ(0);
+   -o-transform: translateZ(0);
+   transform: translateZ(0);
+        
+        transition-property:max-height;
+        -moz-transition-property: max-height; /* Firefox 4 */
+        -webkit-transition-property:max-height; /* Safari and Chrome */
+        -o-transition-property:max-height; /* Opera */
+        
+        transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s; /* Firefox 4 */
+        -webkit-transition-duration: 0.5s; /* Safari and Chrome */
+        -o-transition-duration: 0.5s; /* Opera */
+        
+        transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in; /* Firefox 4 */
+        -webkit-transition-timing-function: ease-in /* Safari and Chrome */
+        -o-transition-timing-function: ease-in; /* Opera */ 
     }  
     
     .opened{
-   -webkit-transform: translate3d(0, 0, 0);
-   -moz-transform: translate3d(0, 0, 0);
-   -ms-transform: translate3d(0, 0, 0);
-   transform: translate3d(0, 0, 0);
-        -moz-transition-duration:1s; /* Firefox 4 */
-        -webkit-transition-duration: 1s; /* Safari and Chrome */
-        -o-transition-duration: 1s; /* Opera */
-        transition-duration: 1s;
+       -webkit-transform: translateZ(0);
+   -moz-transform: translateZ(0);
+   -ms-transform: translateZ(0);
+   -o-transform: translateZ(0);
+   transform: translateZ(0);
+        transition-property:max-height;
+        -moz-transition-property: max-height; /* Firefox 4 */
+        -webkit-transition-property:max-height; /* Safari and Chrome */
+        -o-transition-property:max-height; /* Opera */
+        
+        transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s; /* Firefox 4 */
+        -webkit-transition-duration: 0.5s; /* Safari and Chrome */
+        -o-transition-duration: 0.5s; /* Opera */
+        
+        transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in; /* Firefox 4 */
+        -webkit-transition-timing-function: ease-in /* Safari and Chrome */
+        -o-transition-timing-function: ease-in; /* Opera */ 
+        
     max-height: 2000px;
     }
     
