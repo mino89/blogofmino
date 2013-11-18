@@ -32,48 +32,17 @@ textarea {
 
 @media only screen and (max-width: 54.79em) {
     .mobile-menu{
-        overflow: hidden;
-       max-height: 0px;
-         -webkit-backface-visibility: hidden;
-   -moz-backface-visibility: hidden;
-   -ms-backface-visibility: hidden;
-   backface-visibility: hidden;
-
-           -webkit-transform: translateZ(0);
-   -moz-transform: translateZ(0);
-   -ms-transform: translateZ(0);
-   -o-transform: translateZ(0);
-   transform: translateZ(0);
-        
-
-        
-        transition-duration: 3s;
-        -moz-transition-duration: 3s; /* Firefox 4 */
-        -webkit-transition-duration: 3s; /* Safari and Chrome */
-        -o-transition-duration: 0.5s; /* Opera */
-        
+        max-height: 0;
+        overflow-y: hidden;
+        transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
     }  
     
     .opened{
-         -webkit-backface-visibility: hidden;
-   -moz-backface-visibility: hidden;
-   -ms-backface-visibility: hidden;
-   backface-visibility: hidden;
 
-       -webkit-transform: translateZ(0);
-   -moz-transform: translateZ(0);
-   -ms-transform: translateZ(0);
-   -o-transform: translateZ(0);
-   transform: translateZ(0);
-   
-        
-        transition-duration:3s;
-        -moz-transition-duration: 3s; /* Firefox 4 */
-        -webkit-transition-duration: 3s; /* Safari and Chrome */
-        -o-transition-duration: 3s; /* Opera */
-        
-        
-   max-height: 2000px;
+	max-height: 600px; /* approximate max height */
+
     }
     
 }
