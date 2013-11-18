@@ -34,11 +34,15 @@ textarea {
     .mobile-menu{
         overflow: hidden;
         max-height: 0px;
-        
-        -moz-transition-duration:2s; /* Firefox 4 */
-        -webkit-transition-duration: 2s; /* Safari and Chrome */
-        -o-transition-duration: 2s; /* Opera */
-        transition-duration: 2s;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -moz-transition-duration:.5s; /* Firefox 4 */
+        -webkit-transition-duration: .5s; /* Safari and Chrome */
+        -o-transition-duration:.5s; /* Opera */
+        transition-duration: .5s;
         
 
     }  
@@ -49,10 +53,10 @@ textarea {
         -ms-transform: translateZ(0);
         -o-transform: translateZ(0);
         transform: translateZ(0);
-        -moz-transition-duration:2s; /* Firefox 4 */
-        -webkit-transition-duration: 2s; /* Safari and Chrome */
-        -o-transition-duration: 2s; /* Opera */
-        transition-duration: 2s;
+        -moz-transition-duration:.5s; /* Firefox 4 */
+        -webkit-transition-duration: .5s; /* Safari and Chrome */
+        -o-transition-duration: .5s; /* Opera */
+        transition-duration: .5s;
     max-height: 2000px;
     }
     
