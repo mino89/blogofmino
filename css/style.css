@@ -53,7 +53,7 @@ textarea {
         
         transition-timing-function: ease-in;
         -moz-transition-timing-function: ease-in; /* Firefox 4 */
-        -webkit-transition-timing-function: ease-in /* Safari and Chrome */
+        -webkit-transition-timing-function: ease-in; /* Safari and Chrome */
         -o-transition-timing-function: ease-in; /* Opera */ 
     }  
     
@@ -75,7 +75,7 @@ textarea {
         
         transition-timing-function: ease-in;
         -moz-transition-timing-function: ease-in; /* Firefox 4 */
-        -webkit-transition-timing-function: ease-in /* Safari and Chrome */
+        -webkit-transition-timing-function: ease-in; /* Safari and Chrome */
         -o-transition-timing-function: ease-in; /* Opera */ 
         
     max-height: 2000px;
