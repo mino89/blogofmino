@@ -33,7 +33,7 @@ textarea {
 @media only screen and (max-width: 54.79em) {
     .mobile-menu{
         overflow: hidden;
-        max-height: 0px;
+       height: 0px;
         
            -webkit-transform: translateZ(0);
    -moz-transform: translateZ(0);
@@ -71,7 +71,7 @@ textarea {
         -o-transition-duration: 0.5s; /* Opera */
         
         
-    max-height: 2000px;
+   height: 2000px;
     }
     
 }
