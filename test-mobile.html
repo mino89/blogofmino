@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://reset5.googlecode.com/hg/reset.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <style>
+	.menu-content{
+	    max-height: 0px;
+	    overflow-y: hidden;
+	    -webkit-transform: translate3d(0, 0, 0);
+	    -moz-transform: translate3d(0, 0, 0);
+	    -ms-transform: translate3d(0, 0, 0);
+	    transform: translate3d(0, 0, 0);
+	    transition-duration: .5s;
+	    transition-property: all;
+	    padding: 0 20px;;
+	    
+	}
+	.menu-content.opened{
+	    max-height: 1000px;
+	    padding: 20px;
+	}
+    </style>
+</head>
+<body>
+    <div class="menu-action" style="text-align: center; color:white; background: black; width: 100%; padding:20px 0;">
+	<h1>click here to fire action</h1>
+    </div>
+    <ul class="menu-content" style=" margin: 0 auto;">
+	<li>link1</li>
+	<li>link1</li>
+	<li>link1</li>
+	<li>link1</li>
+	<li>link1</li>
+	<li>link1</li>
+	<li>link1</li>
+	<li>link1</li>
+	<li>link1</li>
+	<li>link1</li>
+	<li>link1</li>
+	
+    </ul>
+    <script>
+	$(document).ready(function(){
+	    $('.menu-action').click(function(){
+		
+		$('.menu-content').toggleClass('opened');
+	    	
+	    });    
+	    
+	});
+    </script>
+</body>
+</html>
